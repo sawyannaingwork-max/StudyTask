@@ -52,7 +52,7 @@ export default function HandleStart()
 
         interval = setInterval(function()
         {
-            setTimer(new Date() - startTime.current)
+            setTimer(new Date() - startTime.current - pauseTime.current)
         }, 1000)
 
         return () => clearInterval(interval)
