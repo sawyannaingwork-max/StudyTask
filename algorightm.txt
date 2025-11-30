@@ -2,8 +2,8 @@ Home Page
 Add Task Page 
 Summary Page 
 
-Home Page 
-    Show a list of task 
-
-Add Task Page 
-    let use add a task
+Home Page   
+    Show A list of task for a specific date 
+    Intially show a list of task for today 
+    There will be next and previous button depedning on the context 
+    If there is no task for today show there is no task for today
